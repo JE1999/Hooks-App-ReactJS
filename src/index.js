@@ -9,11 +9,15 @@ import './index.css';
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
-import { Layout } from './components/05-useLayoutEffect/Layout';
+// import { Layout } from './components/05-useLayoutEffect/Layout';
+// import { Memorize } from './components/06-memo/Memorize';
+// import { MemoHooks } from './components/06-memo/MemoHooks';
+// import { CallbackHook } from './components/06-memo/CallbackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Layout />
+    <Padre />
   </React.StrictMode>,
   document.getElementById('root')
 );
