@@ -4,6 +4,10 @@ export const useForm = (initialState = {}) => {
     
     const [values, setValues] = useState(initialState)
 
+    const reset = () => {
+        setValues(initialState)
+    }
+
     const handleChange = ({target}) => {
         setValues({
             ...values,
@@ -11,12 +15,6 @@ export const useForm = (initialState = {}) => {
         })
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-
-        console.log(values)   
-    }
-
-    return [values, handleChange, handleSubmit]
+    return [values, handleChange, reset]
 
 }

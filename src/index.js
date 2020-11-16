@@ -13,11 +13,14 @@ import './index.css';
 // import { Memorize } from './components/06-memo/Memorize';
 // import { MemoHooks } from './components/06-memo/MemoHooks';
 // import { CallbackHook } from './components/06-memo/CallbackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// import './components/08-useReducer/intro-reducer'
