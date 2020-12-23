@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 import { useForm } from '../../hooks/useForm'
 
 
-export const TodoAdd = memo(({handleAddTodo}) => {
+export const TodoAdd = ({handleAddTodo}) => {
 
     const [ {desc}, handleChange, reset ] = useForm({desc: ''});
 
@@ -44,4 +44,6 @@ export const TodoAdd = memo(({handleAddTodo}) => {
                 </form>
         </>
     )
-})
+}
+
+// TodoAdd.displayName="TodoAdd"
