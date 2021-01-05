@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de <TodoListItem /> Mostrar componente 1`] = `
+<li
+  className="list-group-item"
+  key="1"
+>
+  <p
+    className="false"
+    onClick={[Function]}
+    style={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  >
+    1
+    . 
+    Aprender ReactJS
+  </p>
+  <button
+    className="btn btn-sm btn-danger"
+    onClick={[Function]}
+  >
+    Borrar
+  </button>
+</li>
+`;
